@@ -43,7 +43,7 @@ The strongest objection is that using a 10% trimmed mean after explicitly removi
 
 To settle this, I would recalculate the metric using a consistent population of completed consumer transactions only, then compare the ordinary mean with the 10% trimmed mean. I would also inspect the observations removed by trimming to determine whether they are genuine consumer transactions.
 
-If the cleaned mean and trimmed mean give similar year-over-year results, I would revise my Phase 2 recommendation and use the cleaned arithmetic mean. It preserves the business definition of average basket value while directly correcting the known measurement problems instead of removing valid transactions solely because they are extreme.
+If the cleaned mean and trimmed mean give similar year-over-year results, that would support my Phase 2 recommendation to use the cleaned arithmetic mean. It preserves the business definition of average basket value while directly correcting the known measurement problems instead of removing valid transactions solely because they are extreme.
 
 The additional analysis supports, rather than changes, my Phase 2 recommendation. After removing the known B2B and logging issues, the 10% trimmed mean still produces a YoY estimate about 0.35 percentage points different from the arithmetic mean. Because the remaining observations are intended to represent valid consumer transactions, trimming would remove genuine high-value baskets and change the business definition of average basket value. I therefore retain the cleaned arithmetic mean as the recommended dashboard metric.
 
